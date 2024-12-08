@@ -8,10 +8,23 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens:{
+        'xs' : '480',
+        'sm' : '640px',
+        'md' : '768',
+        'lg' : '1024',
+        'xl' : '1280',
+        '2xl': '1536',
+        'custom' :'1400'
+       },
+       
     },
   },
   plugins: [],
