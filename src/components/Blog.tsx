@@ -18,13 +18,14 @@ const BlogSection = () => {
       {/* Blog Boxes */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {/* Blog Box 1 */}
-        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg">
+        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
           <Image
             src="/images/key.png" // Replace with the actual image path
-            alt="Blog 1"
+            alt="Blog 1: Going all-in with millennial design"
             className="object-cover rounded-md"
             width={393}
             height={393}
+            layout="responsive"
           />
           <h3 className="text-xl md:text-2xl font-normal text-black mt-4 text-center">
             Going all-in with millennial design
@@ -32,20 +33,28 @@ const BlogSection = () => {
           <a
             href="#"
             className="text-lg font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600 mt-2"
+            aria-label="Read more about going all-in with millennial design"
           >
             Read More
           </a>
-          <Image src='/images/time.png' alt="Date and time" width={223} height={24} className="pt-[20px]"/>
+          <Image
+            src="/images/time.png"
+            alt="Date and time"
+            width={223}
+            height={24}
+            className="pt-[20px]"
+          />
         </div>
 
         {/* Blog Box 2 */}
-        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg">
+        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
           <Image
             src="/images/laptop.png" // Replace with the actual image path
-            alt="Blog 2"
+            alt="Blog 2: Going all-in with millennial design"
             className="object-cover rounded-md"
             width={393}
             height={393}
+            layout="responsive"
           />
           <h3 className="text-xl md:text-2xl font-normal text-black mt-4 text-center">
             Going all-in with millennial design
@@ -53,20 +62,28 @@ const BlogSection = () => {
           <a
             href="#"
             className="text-lg font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600 mt-2"
+            aria-label="Read more about going all-in with millennial design"
           >
             Read More
           </a>
-          <Image src='/images/time.png' alt="Date and time" width={223} height={24} className="pt-[20px]"/>
+          <Image
+            src="/images/time.png"
+            alt="Date and time"
+            width={223}
+            height={24}
+            className="pt-[20px]"
+          />
         </div>
 
         {/* Blog Box 3 */}
-        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg">
+        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
           <Image
             src="/images/mouse.png" // Replace with the actual image path
-            alt="Blog 3"
+            alt="Blog 3: Going all-in with millennial design"
             className="object-cover rounded-md"
             width={393}
             height={393}
+            layout="responsive"
           />
           <h3 className="text-xl md:text-2xl font-normal text-black mt-4 text-center">
             Going all-in with millennial design
@@ -74,10 +91,17 @@ const BlogSection = () => {
           <a
             href="#"
             className="text-lg font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600 mt-2"
+            aria-label="Read more about going all-in with millennial design"
           >
             Read More
           </a>
-          <Image src='/images/time.png' alt="Date and time" width={223} height={24} className="pt-[20px]"/>
+          <Image
+            src="/images/time.png"
+            alt="Date and time"
+            width={223}
+            height={24}
+            className="pt-[20px]"
+          />
         </div>
       </div>
 
@@ -86,6 +110,7 @@ const BlogSection = () => {
         <a
           href="#"
           className="text-xl md:text-2xl font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600"
+          aria-label="View all blog posts"
         >
           View All Posts
         </a>
