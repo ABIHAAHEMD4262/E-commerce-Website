@@ -2,7 +2,7 @@ import React from "react";
 
 const DeliveryInformation= () =>{
   return (
-    <div className="flex flex-col items-center font-poppins bg-[rgba(250,244,244,1)] md:h-[300px] md:py-11 md:mt-[200px]" >
+    <div className="flex sm:flex-col md:flex-row items-center font-poppins bg-[rgba(250,244,244,1)] md:h-[300px] md:py-11 md:mt-[200px]" >
         <div className=" text-left grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-6 w-full mt-8">
         {/* Box 1 */}
         <div className="flex flex-col items-center justify-center p-4 rounded-lg text-gray-500">
