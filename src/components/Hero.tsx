@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <div className="flex  sm:flex-col md:flex-row text-black bg-[rgba(251,235,181,1)] font-roboto gap-6 items-center ">
+    <div className="flex sm:flex-col md:flex-row text-black bg-[rgba(251,235,181,1)] font-roboto gap-6 items-center ">
       {/* Left Section */}
       <div className="flex flex-col md:pr-[60px] pl-[80px]  items-start m-2 gap-2  lg:text-left  sm:text-center ">
-        <h1 className=" font-medium  text-6xl md:text-5xl sm:h-[200px] lg:text-6xl sm:text-4xl ">
+        <h1 className=" font-medium sm:mt-[100px] text-6xl md:text-5xl  lg:text-6xl sm:text-2xl">
           Rocket single seater
         </h1>
         <a
