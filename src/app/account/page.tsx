@@ -6,7 +6,7 @@ import DeliveryInformation from "@/components/DeliveryInformation";
 
 function Account() {
   return (
-    <div className="flex font-poppins sm:flex-col md:flex-col">
+    <div className="font-poppins">
       {/* Header */}
       <Header backgroundColor="#f8f9fa" />
 
@@ -23,9 +23,9 @@ function Account() {
       </div>
 
       {/* Account Section */}
-      <div className="flex  items-start justify-center gap-6 px-4 py-10 lg:gap-10 lg:px-16">
+      <div className="flex flex-wrap items-start justify-center gap-6 px-4 py-10 lg:gap-10 lg:px-16">
         {/* Login Box */}
-        <div className=" bg-white p-6 rounded-md shadow-lg lg:w-1/2">
+        <div className="w-full max-w-md bg-white p-6 rounded-md shadow-lg lg:w-1/2">
           <h2 className="text-4xl font-semibold mb-[30px]">Log In</h2>
           <form className="space-y-4">
             {/* Username Input */}
@@ -74,7 +74,7 @@ function Account() {
         </div>
 
         {/* Register Box */}
-        <div className=" bg-white p-6 rounded-md shadow-lg lg:w-1/2">
+        <div className="w-full max-w-md bg-white p-6 rounded-md shadow-lg lg:w-1/2">
         <h2 className="text-4xl font-semibold mb-[30px]">Register</h2>
           <form className="space-y-4">
             {/* Email Input */}
