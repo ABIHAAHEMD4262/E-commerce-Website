@@ -8,7 +8,7 @@ const TopPicksSection = () => {
             <p className='text-gray-500 text-base font-medium mb-5'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
           </div>
           {/*Box Section */}
-          <div className='grid md:grid-cols-4 lg:grid-cols-4 sm:grid-cols-2 mt-[50px]'>
+          <div className='grid md:grid-cols-4 lg:grid-cols-4 sm:grid-cols-1 mt-[50px]'>
             {/*Box 1 */}
             <div className='h-[397px]'>
               <Image src="/images/Trenton.png" alt="sofa" height={287} width={287}  />
