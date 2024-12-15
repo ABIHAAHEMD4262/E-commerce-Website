@@ -67,18 +67,6 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = 'rgba(251, 235, 181, 
 
       </div>
 
-      {/* Burger Menu Icon */}
-      <button
-        className="md:hidden flex items-center justify-center p-2"
-      >
-        <Image
-          src="/icons/headericon.png" // Add your burger menu icon path here
-          alt="Menu"
-          width={40}
-          height={40}
-          className="hover:opacity-75"
-        />
-      </button>
     </header>
   );
 };
