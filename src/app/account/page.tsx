@@ -89,10 +89,10 @@ function Account() {
               />
             </div>
             {/* Information Paragraph */}
-            <p className="text-black text-black space-y-8">
+            <p className="text-black space-y-8">
               A link to set a new password will be sent to your email address.
             </p>
-            <p className="text-black text-black">
+            <p className="text-black">
               Your personal data will be used to support your experience throughout this website, to
               manage access to your account, and for other purposes described in our <b>privacy policy.</b> 
             </p>

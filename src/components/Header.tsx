@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = 'rgba(251, 235, 181, 
       <div className="md:flex  sm:flex-row md:flex-row items-center  md:gap-8">
         <Link href="/account" aria-label="Account">
           <Image
-            src="/icons/account.png"
+            src="/icons/Account.png"
             alt="Account"
             width={22.17}
             height={22.17}

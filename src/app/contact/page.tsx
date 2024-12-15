@@ -64,7 +64,7 @@ function Contact() {
             {/* Phone */}
             <div className="flex items-start">
               <Image
-                src="/icons/phone.png"
+                src="/icons/Phone.png"
                 alt="Phone Icon"
                 width={24}
                 height={24}
