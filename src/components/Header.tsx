@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = 'rgba(251, 235, 181, 
       </nav>
 
       {/* Icons Section */}
-      <div className="hidden md:flex items-center gap-4 md:gap-8">
+      <div className="md:flex items-center gap-4 md:gap-8">
         <Link href="/account" aria-label="Account">
           <Image
             src="/icons/account.png"
