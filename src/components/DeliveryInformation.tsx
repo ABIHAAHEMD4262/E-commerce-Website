@@ -1,33 +1,28 @@
-import React from 'react';
+import React from "react";
 
-const DeliveryInformation: React.FC = () => {
+const DeliveryInformation= () =>{
   return (
-    <div className="w-full h-[300px] custom-bg p-6 font-poppins mt-20">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {/* Column 1 */}
-        <div className="flex flex-col items-center mt-10 leading-7">
-          <h2 className="text-3xl text-center font-medium mb-2">Free Delivery</h2>
-          <p className="text-center text-xl text-gray-600">
-            For all orders over $50, enjoy free delivery on us.
-          </p>
+    <div className="flex flex-col items-center font-poppins bg-[rgba(250,244,244,1)] md:h-[300px] md:py-11 md:mt-[200px]" >
+        <div className=" text-left grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-6 w-full mt-8">
+        {/* Box 1 */}
+        <div className="flex flex-col items-center justify-center p-4 rounded-lg text-gray-500">
+          <h1 className="text-4xl font-semibold text-black ">Free Delivery</h1>
+          <p className="font-normal text-lg mt-2">For all oders over $50, consectetur adipim scing elit.</p>
         </div>
-        {/* Column 2 */}
-        <div className="flex flex-col items-center mt-10 leading-7">
-          <h2 className="text-3xl text-center font-medium mb-2">90 Days Return</h2>
-          <p className="text-xl text-center text-gray-600">
-            If goods have problems, you can return them within 90 days.
-          </p>
+        
+        {/* Box 2 */}
+        <div className="flex flex-col items-center justify-center p-4 rounded-lg text-gray-500">
+          <h1 className="text-4xl font-semibold text-black" >90 Days Return</h1>
+          <p className="font-normal text-lg mt-2">If goods have problems, consectetur adipim scing elit.</p>
         </div>
-        {/* Column 3 */}
-        <div className="flex flex-col items-center mt-10 leading-7">
-          <h2 className="text-3xl text-center font-medium mb-2">Secure Payment</h2>
-          <p className="text-center text-xl text-gray-600">
-            100% secure payment, ensuring your safety and peace of mind.
-          </p>
+        
+        {/* Box 3 */}
+        <div className="flex flex-col items-center justify-center p-4 rounded-lg text-gray-500">
+          <h1 className="text-4xl font-semibold text-black" >Secure Payment</h1>
+          <p className="font-normal text-lg mt-2">100% secure payment, consectetur adipim scing elit.</p>
         </div>
       </div>
-    </div>
-  );
-};
-
+</div>
+  )
+}
 export default DeliveryInformation;

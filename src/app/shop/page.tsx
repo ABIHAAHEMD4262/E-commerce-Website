@@ -13,7 +13,7 @@ function shop () {
       <div className="flex flex-col items-center justify-center h-full text-center">
         <Image src="/icons/logo.png" alt="Logo" width={77} height={77} className="mb-0" />
         <h1 className="text-5xl md:text-5xl font-medium text-black mb-2">Shop</h1>
-        <p className="text-base font-medium text-black">Home &gt; Shop</p>
+        <p className="text-base font-medium text-black"><b>Home &gt;</b> Shop</p>
       </div>
     </div>
 

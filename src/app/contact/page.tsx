@@ -22,7 +22,7 @@ function Contact() {
             className="mb-0"
           />
           <h1 className="text-5xl md:text-5xl font-medium text-black mb-2">Contact</h1>
-          <p className="text-base font-medium text-black">Contact &gt; Shop</p>
+          <p className="text-base font-medium text-black"><b>Home  &gt;</b> Contact</p>
         </div>
       </div>
 

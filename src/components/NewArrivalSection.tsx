@@ -2,37 +2,20 @@ import Image from 'next/image';
 
 const NewArrivalsSection = () => {
   return (
-    <div
-      className="relative flex flex-col lg:flex-row items-center justify-center gap-8 p-4 font-poppins"
-      style={{ backgroundColor: 'rgba(255, 249, 229, 1)' }}
-    >
-      {/* Box 1: Image */}
-      <div className="w-full lg:w-[50%] flex justify-center items-center">
-        <Image
-          src="/images/Asgaard.png"
-          alt="Asgaard Sofa"
-          width={987}
-          height={800}
-          className="object-cover w-full h-auto max-w-full"
-          layout="responsive"
-        />
-      </div>
-
-      {/* Box 2: Text Content */}
-      <div className="w-full lg:w-[50%] flex flex-col justify-center items-center space-y-6">
-        {/* Small Heading */}
-        <h3 className="text-2xl lg:text-3xl font-medium text-black">New Arrivals</h3>
-
-        {/* Main Heading */}
-        <h2 className="text-3xl lg:text-5xl font-bold text-black">Asgaard Sofa</h2>
-
-        {/* Button Link */}
-        <button className="text-lg lg:text-xl font-medium text-black w-full lg:w-[255px] h-[64px] border border-black bg-white hover:text-gray-700 hover:bg-gray-200 transition">
+    <section className='grid md:grid-cols-2 lg:grid-col-1 sm:grid-col-1 justify-center items-center font-poppins mt-[100px]'
+    style={{ backgroundColor: 'rgba(255, 249, 229, 1)' }}>
+        <div className='flex md:w-[983px] md:h-[799px]'>
+          <Image src="/images/Asgaard.png" alt="Sofa" width={983} height={799} className='w-full h-auto object-cover'/>
+          </div>
+        <div className='md:w-[331px] md:h-[205px] md:mx-[300px] text-center '>
+          <h1 className='text-2xl font-medium '>New Arrivals</h1>
+          <h1 className='font-bold text-5xl mt-5'>Asgaard sofa</h1>
+          <button className='text-xl font-normal w-[255px] h-[64px] border border-black mt-9'>
           Order Now
-        </button>
-      </div>
-    </div>
-  );
+          </button>
+        </div>
+    </section>
+    );
 };
 
 export default NewArrivalsSection;

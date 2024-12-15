@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import React from "react";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import DeliveryInformation from "@/components/DeliveryInformation";
 
 function Account() {
   return (
@@ -107,7 +108,7 @@ function Account() {
           </form>
         </div>
       </div>
-
+       <DeliveryInformation/>
       {/* Footer */}
       <Footer />
     </div>

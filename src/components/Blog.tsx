@@ -3,121 +3,101 @@ import InstagramSection from "./InstagramSection"; // Adjust the path as necessa
 
 const BlogSection = () => {
   return (
-    <section className="bg-white py-16 md:px-20 lg:px-40 font-poppins">
-      {/* Heading and Subheading */}
-      <div className="text-center mb-10">
-        <h2 className="text-4xl md:text-5xl font-medium text-black">Our Blogs</h2>
-        <p
-          className="text-base md:text-xl mt-4"
-          style={{ color: "rgba(159, 159, 159, 1)" }}
-        >
-          Find a bright idea to suit your taste with our great selection
+    <section className="mt-[80px] md:mt-[200px] flex flex-col justify-center items-center text-center font-poppins">
+      <div>
+        <h1 className="text-4xl font-bold mb-5 ">Our Blogs</h1>
+        <p className="text-gray-500 text-base font-medium mb-5">
+          Find a bright ideal to suit your taste with our great selection
         </p>
       </div>
-
-      {/* Blog Boxes */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {/* Blog Box 1 */}
-        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+      {/*Box Section */}
+      <div className="grid md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 mt-[50px] gap-7">
+        {/*Box 1 */}
+        <div>
           <Image
-            src="/images/key.png" // Replace with the actual image path
-            alt="Blog 1: Going all-in with millennial design"
-            className="object-cover rounded-md"
+            src="/images/key.png"
+            alt="sofa"
+            height={555}
             width={393}
-            height={393}
-            layout="responsive"
+            className="h-auto object-coverw-full "
           />
-          <h3 className="text-xl md:text-2xl font-normal text-black mt-4 text-center">
+          <p className="font-normal text-xl my-[20px] ">
             Going all-in with millennial design
-          </h3>
+          </p>
           <a
             href="#"
-            className="text-lg font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600 mt-2"
-            aria-label="Read more about going all-in with millennial design"
+            className="text-2xl text-center font-medium text-black underline decoration-2 underline-offset-8 hover:text-gray-600"
           >
             Read More
           </a>
           <Image
             src="/images/time.png"
-            alt="Date and time"
-            width={223}
+            alt="date and time"
+            width={233}
             height={24}
-            className="pt-[20px]"
+            className="mx-[75px] my-8"
           />
         </div>
-
-        {/* Blog Box 2 */}
-        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+        {/*Box 2 */}
+        <div>
           <Image
-            src="/images/laptop.png" // Replace with the actual image path
-            alt="Blog 2: Going all-in with millennial design"
-            className="object-cover rounded-md"
+            src="/images/laptop.png"
+            alt="sofa"
+            height={555}
             width={393}
-            height={393}
-            layout="responsive"
+            className="h-auto object-coverw-full"
           />
-          <h3 className="text-xl md:text-2xl font-normal text-black mt-4 text-center">
+          <p className="font-normal text-xl my-[20px]">
             Going all-in with millennial design
-          </h3>
+          </p>
           <a
             href="#"
-            className="text-lg font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600 mt-2"
-            aria-label="Read more about going all-in with millennial design"
+            className="text-2xl text-center font-medium text-black underline decoration-2 underline-offset-8 hover:text-gray-600"
           >
             Read More
           </a>
           <Image
             src="/images/time.png"
-            alt="Date and time"
-            width={223}
+            alt="date and time"
+            width={233}
             height={24}
-            className="pt-[20px]"
+            className="mx-[75px] my-8"
           />
         </div>
-
-        {/* Blog Box 3 */}
-        <div className="flex flex-col items-center bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+        {/*Box 3 */}
+        <div>
           <Image
-            src="/images/mouse.png" // Replace with the actual image path
-            alt="Blog 3: Going all-in with millennial design"
-            className="object-cover rounded-md"
+            src="/images/mouse.png"
+            alt="sofa"
+            height={555}
             width={393}
-            height={393}
-            layout="responsive"
+            className="h-auto object-coverw-full"
           />
-          <h3 className="text-xl md:text-2xl font-normal text-black mt-4 text-center">
+          <p className="font-normal text-xl my-[20px]">
             Going all-in with millennial design
-          </h3>
+          </p>
           <a
             href="#"
-            className="text-lg font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600 mt-2"
-            aria-label="Read more about going all-in with millennial design"
+            className="text-2xl text-center font-medium text-black underline decoration-2 underline-offset-8 hover:text-gray-600"
           >
             Read More
           </a>
           <Image
             src="/images/time.png"
-            alt="Date and time"
-            width={223}
+            alt="date and time"
+            width={233}
             height={24}
-            className="pt-[20px]"
+            className="mx-[75px] my-8"
           />
         </div>
       </div>
-
-      {/* View All Posts Button */}
-      <div className="text-center mt-10">
-        <a
-          href="#"
-          className="text-xl md:text-2xl font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600"
-          aria-label="View all blog posts"
-        >
-          View All Posts
-        </a>
-      </div>
-
-      {/* Add Instagram Section */}
-      <InstagramSection />
+      <a
+        href="/blog"
+        className="my-9 text-2xl text-center font-medium text-black underline decoration-2 underline-offset-8 hover:text-gray-600"
+      >
+        View All Post
+      </a>
+      <InstagramSection/>
     </section>
   );
 };
