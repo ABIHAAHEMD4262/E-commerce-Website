@@ -6,7 +6,7 @@ import DeliveryInformation from "@/components/DeliveryInformation";
 
 function Account() {
   return (
-    <div className="flex font-poppins sm:flex-col md:flex-row">
+    <div className="flex font-poppins sm:flex-col md:flex-col">
       {/* Header */}
       <Header backgroundColor="#f8f9fa" />
 
