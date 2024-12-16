@@ -82,7 +82,7 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = "rgba(251, 235, 181, 
           <Image
             src="/icons/headericon.png"
             alt="Menu"
-            width={50}
+            width={70}
             height={50}
             className="hover:opacity-75"
             layout="intrinsic"

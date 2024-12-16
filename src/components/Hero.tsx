@@ -3,30 +3,33 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <div className="flex flex-col lg:flex-row text-black bg-[rgba(251,235,181,1)] font-roboto gap-6 items-center mt-0">
+    <div className="flex flex-col lg:flex-row items-center text-black bg-[rgba(251,235,181,1)] font-roboto gap-8 px-6 lg:px-16 py-12">
       {/* Left Section */}
-      <div className="flex flex-col md:pr-[60px] pl-[80px] justify-center items-start m-2 gap-2  lg:text-left text-center sm:text-center ">
-        <h1 className=" font-medium  w-[440px] text-6xl md:text-5xl  lg:text-6xl sm:text-4xl ">
+      <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6">
+        <h1 className="font-medium text-4xl sm:text-5xl lg:text-6xl max-w-[440px] leading-tight">
           Rocket single seater
         </h1>
         <a
           href="#"
-          className="text-2xl text-center font-medium text-black underline decoration-2 underline-offset-8 border hover:text-gray-600"
+          className="text-2xl font-medium text-black underline decoration-2 underline-offset-4 hover:text-gray-600 transition duration-300"
         >
           Shop Now
         </a>
       </div>
 
-      <div className="flex justify-center lg:justify-end  ">
+      {/* Right Section */}
+      <div className="w-full lg:w-auto">
         <Image
           src="/images/sofa.png"
-          alt="hero image"
+          alt="Rocket single seater"
           width={853}
           height={1000}
-          className="w-full h-auto object-cover"
+          className="object-cover"
+          layout="responsive" // Ensures the image is responsive
         />
       </div>
     </div>
   );
 };
+
 export default Hero;
