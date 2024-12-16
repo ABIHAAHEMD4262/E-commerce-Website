@@ -57,17 +57,44 @@ function About() {
         </div>
 
         {/* Right Sidebar */}
-        <div className="lg:w-[30%] bg-gray-100 p-6 rounded-md shadow-lg">
-        <div>
+        <div className="sm:block lg:w-[30%] bg-gray-100 p-6 rounded-md shadow-lg ">
+        <div className="flex ">
+        
                 <input
                   type="text"
                   id="login-username"
-                  className="mt-2 w-full h-[50px] px-4 py-3 border border-black rounded-xl focus:ring focus:ring-blue-500"
+                  className="mt-2 w-full  px-4 py-3 border border-black rounded-xl focus:ring focus:ring-blue-500"
                   aria-label="Username or email for login"
+                  
                 />
+                <Image src="/icons/search.png" alt="search" width={10} height={20}/>
               </div>
-        </div>
+              <h1 className="text-2xl font-medium m-5">Categories</h1>
+              <ul className="text-gray-400 text-base leading-10">
+                <li>Crafts <b className="pl-[250px]">1</b></li>
+                <li>Design <b className="pl-[245px]">2</b></li>
+                <li>Handmade <b className="pl-[215px]">3</b></li>
+                <li>Interior <b className="pl-[245px]">4</b></li>
+                <li>Wood <b className="pl-[255px]">5</b></li>
+              </ul>
+              <h1>Recent Posts</h1>
+        <ul>
+          <li >
+            <Image src="/images/Rectangle 69.png" alt="Notebook" width={80} height={80}/>
+            <p>Going all-in with </p>
+            <p>millennial design</p>
+           <h1>03 Aug 2022</h1>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+
+        </ul>
       </div>
+        </div>
+
+       
 
       {/* Footer */}
       <DeliveryInformation />
