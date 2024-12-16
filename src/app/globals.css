@@ -11,3 +11,7 @@
     background-color: rgba(250, 244, 244, 1);
   }
   
+  html,
+body {
+  overflow-x: hidden;
+}
