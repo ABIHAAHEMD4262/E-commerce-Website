@@ -16,7 +16,7 @@ function Account() {
         style={{ backgroundImage: "url(/images/shop.png)" }}
       >
         <div className="flex flex-col items-center justify-center h-full text-center">
-          <Image src="/icons/logo.png" alt="Logo" width={77} height={77} className="mb-2" />
+          <Image src="/icons/logo.png" alt="Logo" width={77} height={77} loading="eager" className="mb-2" />
           <h1 className="text-4xl sm:text-5xl font-medium text-black mb-2">Account</h1>
           <p className="text-sm sm:text-base font-medium text-black">Account &gt; Shop</p>
         </div>
@@ -30,14 +30,14 @@ function Account() {
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Log In</h2>
             <form className="space-y-4">
               <div>
-                <label htmlFor="username" className="block text-sm sm:text-base font-medium text-black">
+                <label htmlFor="login-username" className="block text-sm sm:text-base font-medium text-black">
                   Username or email address
                 </label>
                 <input
                   type="text"
-                  id="username"
-                  className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none"
-                  aria-label="Username or email address"
+                  id="login-username"
+                  className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-500"
+                  aria-label="Username or email for login"
                 />
               </div>
               <div>
@@ -47,7 +47,7 @@ function Account() {
                 <input
                   type="password"
                   id="password"
-                  className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none"
+                  className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-500"
                   aria-label="Password"
                 />
               </div>
@@ -76,14 +76,14 @@ function Account() {
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Register</h2>
             <form className="space-y-4">
               <div>
-                <label htmlFor="email" className="block text-sm sm:text-base font-medium text-black">
+                <label htmlFor="register-username" className="block text-sm sm:text-base font-medium text-black">
                   Email address
                 </label>
                 <input
-                  type="email"
-                  id="email"
-                  className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none"
-                  aria-label="Email address"
+                  type="text"
+                  id="register-username"
+                  className="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring focus:ring-blue-500"
+                  aria-label="Email for registration"
                 />
               </div>
               <p className="text-sm sm:text-base text-gray-600">
