@@ -1,3 +1,4 @@
+"use client"; // Add this directive at the top of the file
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
@@ -78,10 +79,10 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = "rgba(251, 235, 181, 
           className="focus:outline-none"
         >
           <Image
-            src="/icons/burger.png"
+            src="/icons/headericon.png"
             alt="Menu"
-            width={30}
-            height={30}
+            width={40}
+            height={40}
             className="hover:opacity-75"
             layout="intrinsic"
           />
@@ -90,9 +91,11 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = "rgba(251, 235, 181, 
         {/* Dropdown Menu */}
         {dropdownOpen && (
           <div className="absolute right-0 top-[50px] bg-white shadow-md rounded-lg w-[200px] z-50">
-            <ul className="flex flex-col p-4 gap-4">
+            <ul className="flex flex-row p-4 gap-4">
               <li>
+                
                 <Link href="/account" aria-label="Account">
+                
                   <Image
                     src="/icons/Account.png"
                     alt="Account"
@@ -100,8 +103,10 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = "rgba(251, 235, 181, 
                     height={22.17}
                     className="hover:opacity-75"
                     layout="intrinsic"
+        
                   />
                 </Link>
+
               </li>
               <li>
                 <Image
