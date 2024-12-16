@@ -73,7 +73,7 @@ function Shop() {
 
       {/* Product Grid */}
       <section className="px-6 md:px-16 py-6">
-        <div className="grid  sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
+        <div className="grid grid-rows-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
           {products.map((product, index) => (
             <div
               key={index}
