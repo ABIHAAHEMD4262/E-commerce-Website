@@ -6,7 +6,7 @@ import DeliveryInformation from "@/components/DeliveryInformation";
 
 function Account() {
   return (
-    <div className="font-poppins min-h-screen flex flex-col">
+    <div className="font-poppins min-h-screen flex flex-col overflow-x-hidden">
       {/* Header */}
       <Header backgroundColor="#f8f9fa" />
 
@@ -15,16 +15,16 @@ function Account() {
         className="relative w-full h-[316px] bg-cover bg-center"
         style={{ backgroundImage: "url(/images/shop.png)" }}
       >
-        <div className="flex flex-col items-center justify-center h-full text-center">
+        <div className="container mx-auto flex flex-col items-center justify-center h-full text-center px-4">
           <Image src="/icons/logo.png" alt="Logo" width={77} height={77} loading="eager" className="mb-2" />
-          <h1 className="text-4xl sm:text-5xl font-medium text-black mb-2">Account</h1>
+          <h1 className="text-2xl sm:text-3xl font-semibold mb-6">Account</h1>
           <p className="text-sm sm:text-base font-medium text-black">Account &gt; Shop</p>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="flex-grow">
-        <div className="flex flex-wrap items-start justify-center gap-6 px-4 py-10 md:gap-8 lg:gap-10 lg:px-16">
+      <div className="container mx-auto flex-grow px-4">
+        <div className="flex flex-wrap items-start justify-center gap-6 py-10">
           {/* Login Box */}
           <div className="w-full max-w-md bg-white p-6 rounded-md shadow-lg">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Log In</h2>
