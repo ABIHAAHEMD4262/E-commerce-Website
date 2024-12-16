@@ -65,7 +65,8 @@ const products = [
     image: "/images/chairs.png",
     name: "Bella chair and table",
     price: "Rs. 100,000.00",
-  },{
+  },
+  {
     image: "/images/table.png",
     name: "Granite square side table",
     price: "Rs. 258,800.00",
@@ -85,10 +86,6 @@ const products = [
     name: "Asgaard sofa",
     price: "Rs. 250,000.00",
   },
-  
-  
-  
-  // Add remaining product data here...
 ];
 
 function Shop() {
@@ -100,7 +97,13 @@ function Shop() {
       {/* Hero Section */}
       <div className="relative w-full h-[316px] bg-cover bg-center bg-[url('/images/shop.png')]">
         <div className="flex flex-col items-center justify-center h-full text-center">
-          <Image src="/icons/logo.png" alt="Logo" width={77} height={77} className="mb-0" />
+          <Image
+            src="/icons/logo.png"
+            alt="Logo"
+            width={77}
+            height={77}
+            className="mb-0"
+          />
           <h1 className="text-5xl font-medium text-black mb-2">Shop</h1>
           <p className="text-base font-medium text-black">
             <b>Home &gt;</b> Shop
@@ -122,9 +125,13 @@ function Shop() {
         {/* Right Section: Sort */}
         <div className="flex items-center gap-4 flex-wrap">
           <button className="px-3 py-1 border rounded-md">Show</button>
-          <button className="px-3 py-1 border bg-white rounded-md text-gray-500">16</button>
+          <button className="px-3 py-1 border bg-white rounded-md text-gray-500">
+            16
+          </button>
           <button className="px-3 py-1 border rounded-md">Sort by</button>
-          <button className="px-3 py-1 border bg-white rounded-md text-gray-500">Default</button>
+          <button className="px-3 py-1 border bg-white rounded-md text-gray-500">
+            Default
+          </button>
         </div>
       </section>
 
@@ -153,7 +160,12 @@ function Shop() {
 
       {/* Group Icon */}
       <div className="flex justify-center mt-10 mb-12">
-        <Image src="/icons/Group 72.png" alt="Group Icon" width={392} height={60} />
+        <Image
+          src="/icons/Group 72.png"
+          alt="Group Icon"
+          width={392}
+          height={60}
+        />
       </div>
 
       {/* Footer */}
