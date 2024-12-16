@@ -31,6 +31,63 @@ const products = [
     name: "Grain coffee table",
     price: "Rs. 15,000.00",
   },
+  {
+    image: "/images/Kent.png",
+    name: "Kent coffee table",
+    price: "Rs. 225,000.00",
+  },
+  {
+    image: "/images/Round.png",
+    name: "Round coffee table_color 2",
+    price: "Rs. 251,000.00",
+  },
+  {
+    image: "/images/teak.png",
+    name: "Reclaimed teak coffee table",
+    price: "Rs. 25,200.00",
+  },
+  {
+    image: "/images/plain console.png",
+    name: "Plain console_",
+    price: "Rs. 258,200.00",
+  },
+  {
+    image: "/images/Reclaimed teak Sideboard 1.png",
+    name: "Reclaimed teak Sideboard",
+    price: "Rs. 20,000.00",
+  },
+  {
+    image: "/images/four chairs.png",
+    name: "SJP_0825 ",
+    price: "Rs. 200,000.00",
+  },
+  {
+    image: "/images/chairs.png",
+    name: "Bella chair and table",
+    price: "Rs. 100,000.00",
+  },{
+    image: "/images/table.png",
+    name: "Granite square side table",
+    price: "Rs. 258,800.00",
+  },
+  {
+    image: "/images/Asgaard.png",
+    name: "Maya sofa three seater",
+    price: "Rs. 115,000.00",
+  },
+  {
+    image: "/images/big sofa.png",
+    name: "Maya sofa three seater",
+    price: "Rs. 115,000.00",
+  },
+  {
+    image: "/images/reverse sofa.png",
+    name: "Asgaard sofa",
+    price: "Rs. 250,000.00",
+  },
+  
+  
+  
   // Add remaining product data here...
 ];
 
@@ -95,7 +152,7 @@ function Shop() {
       </section>
 
       {/* Group Icon */}
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-10 mb-12">
         <Image src="/icons/Group 72.png" alt="Group Icon" width={392} height={60} />
       </div>
 
