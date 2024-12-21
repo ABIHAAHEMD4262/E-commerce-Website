@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ backgroundColor = "rgba(251, 235, 181, 
         <Link href="/shop" legacyBehavior>
           <a className="text-sm md:text-base font-medium text-black hover:underline">Shop</a>
         </Link>
-        <Link href="/about" legacyBehavior>
+        <Link href="/" legacyBehavior>
           <a className="text-sm md:text-base font-medium text-black hover:underline">About</a>
         </Link>
         <Link href="/contact" legacyBehavior>
